@@ -36,10 +36,16 @@ h1 {
 
 button {
   font-size: 18px;
-  padding: 12px;
+  padding: 14px;
   width: 100%;
   border: none;
-  border-radius: 8px;
-  background-color: black;
+  border-radius: 30px;   /* rend le bouton oblong */
+  background-color: #25D366; /* vert type appel smartphone */
   color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #1ebe5d; /* effet quand on appuie */
 }
